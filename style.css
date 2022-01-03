@@ -4,7 +4,7 @@ margin: 0;}
 h1{font-size: 40px;}
 .blue{color: rgb(4, 95, 91);}
 
-section{display: flex;
+.flex{display: flex;
 margin-bottom: 150px;}
 
 .start{background-image: url(image/top-banner.png);
@@ -26,3 +26,26 @@ background-image: linear-gradient(rgb(23, 23, 226),rgb(217, 9, 236));
 .mid{background-image: url(image/dream-bg.png );
 background-repeat: no-repeat;
 background-position: right;}
+
+.ex-item{width: 40%;
+margin-left: 5%;
+margin-right:5%;
+padding-left: 15px;
+padding-right: 15px; ;
+box-shadow: 10px 10px 40px gray;
+border-radius: 10px;
+}
+
+.ex{margin-left: 5%;}
+.btm{background-image: url(image/exp-bg.png);
+background-repeat: no-repeat;}
+
+#ex1{border-left: 5px solid gray;
+border-image: linear-gradient(rgb(168, 23, 226),rgb(9, 221, 236)) ;
+border-image-slice: 1;}
+
+#ex2{border-left: 5px solid gray;
+    border-image: linear-gradient(rgb(23, 162, 226),rgb(198, 9, 236)) ;
+    border-image-slice: 1;}
+
+footer{text-align: center;}
