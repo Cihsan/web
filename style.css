@@ -1,19 +1,23 @@
-body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin: 0;}
 
 h1{font-size: 40px;}
-.blue{color: rgb(4, 95, 91);}
+.blue{color: rgb(247, 137, 12);}
 
 .flex{display: flex;
 margin-bottom: 150px;}
 
-.start{background-image: url(image/top-banner.png);
+.start{background-image: url(image/08.png);
 background-repeat: no-repeat;}
 .half{
     width: 50%;
 padding-left: 2%;}
 
-.half img{width: 80%;}
+.half img{width: 80%;
+}
+
+img:hover{transform: scaleX(-1);}
 
 .link{font-weight: 700;
 text-decoration: none;
@@ -40,7 +44,8 @@ border-radius: 10px;
 .btm{background-image: url(image/exp-bg.png);
 background-repeat: no-repeat;}
 
-#ex1{border-left: 5px solid gray;
+#ex1{
+    border-left: 5px solid gray;
 border-image: linear-gradient(rgb(168, 23, 226),rgb(9, 221, 236)) ;
 border-image-slice: 1;}
 
